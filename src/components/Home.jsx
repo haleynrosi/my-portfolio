@@ -1,10 +1,10 @@
 import React from "react";
 import 'bootstrap'
 import Navigation from "./Navigation";
-import { Card, Row, Button, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import '../App.css'
 import Typewriter from "typewriter-effect";
-import axios from "axios";
+
 
 function Home() {
   

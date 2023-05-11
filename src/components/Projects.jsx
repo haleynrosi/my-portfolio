@@ -3,10 +3,9 @@ import TraderRecipesModal from "./TraderRecipesModal";
 import TaySwiftModal from "./TaySwiftModal";
 import MovieModal from "./MovieModal"
 import Navigation from "./Navigation";
-import { Card, Col } from "react-bootstrap";
+import { Card} from "react-bootstrap";
 import { useState } from "react";
 import Typewriter from "typewriter-effect";
-import axios from "axios";
 import '../App.css'
 
 function Projects() {
@@ -42,7 +41,7 @@ function Projects() {
         <div>
             <Navigation />
             
-                <h1 style={{ fontFamily: 'Londrina Outline', fontSize:60, textAlign: 'center', marginTop: 10 }}>
+                <h1 style={{ fontFamily: 'Londrina Outline', fontSize:70, textAlign: 'center' }}>
                 <Typewriter
                             onInit={(greeting) => {
                                  greeting.typeString("Portfolio Projects").start()}}/> 
@@ -50,14 +49,14 @@ function Projects() {
             
             
                 <div style={{display:'flex', alignItems: 'center', justifyContent:'center',padding: 30}}>
-                    <div className="projectsDiv" style={{padding:20}}>
+                    <div className="projectsDiv" style={{padding:40}}>
 
                         <Card  className='projectCard' style={{ width: '100%', margin: '10px', padding:10}} onClick={(e)=>{
                             setIsProjectOneOpen(true)
                         }}>
                             <Card.Title>TraderRecipes</Card.Title>
                             <Card.Body>
-                                <img className="projectImg" src='./traderhome.png'></img>
+                                <img className="projectImg" alt='traderpic' src='./traderhome.png'></img>
                             </Card.Body>
                         </Card>
 
@@ -66,7 +65,7 @@ function Projects() {
                         }}>
                             <Card.Title>TSwift Trivia</Card.Title>
                             <Card.Body>
-                                <img className="projectImg" src='./images/tayswifttrivia.jpg' alt='2' ></img>
+                                <img className="projectImg" src='./images/tayswifttrivia.jpg' alt='tswift' ></img>
                             </Card.Body>
                         </Card>
 
@@ -75,7 +74,7 @@ function Projects() {
                         }}>
                             <Card.Title>Movie Site</Card.Title>
                             <Card.Body>
-                                <img className="projectImg" src='./images/moviesite.jpg'></img>
+                                <img className="projectImg"  alt='moviepic' src='./images/moviesite.jpg'></img>
                             </Card.Body>
                         </Card>
 

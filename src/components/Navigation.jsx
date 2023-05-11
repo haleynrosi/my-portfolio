@@ -1,4 +1,3 @@
-import react from "react";
 import 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from 'react-bootstrap';

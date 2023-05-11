@@ -44,7 +44,7 @@ html, body {
 .projectsDiv {
   display: flex;
   flex-direction: column;
-  width:60%;
-  height: 600px;/* set a height that fits your needs */
+  width:65%;
+  max-height: 700px;/* set a height that fits your needs */
   overflow: auto;
 }

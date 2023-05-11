@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, Box } from "@mui/material";
-import { Card, Form, Button , Row} from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -110,7 +110,7 @@ function MovieModal(props){
                        {renderMovieTrivia()}
                     </Carousel>
                 </Card.Body>
-                <Button onClick={props.closeModal} style={{backgroundColor:'white', border:'none', color:'black'}}><img style={{width:'20px'}} src='./close.svg'></img></Button>
+                <Button onClick={props.closeModal} style={{backgroundColor:'white', border:'none', color:'black'}}><img alt='closeimage' style={{width:'20px'}} src='./close.svg'></img></Button>
             </Card>
         </Box>
     </Modal>

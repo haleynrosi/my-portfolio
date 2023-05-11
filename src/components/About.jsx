@@ -1,16 +1,13 @@
 import React from "react";
 import Navigation from "./Navigation";
-import axios from "axios";
 import { Card } from "react-bootstrap";
-import { Navigate, useNavigate } from "react-router-dom";
-
 import Typewriter from "typewriter-effect";
 import '../App.css'
 
 function About() {
 
 
-    const Navigate = useNavigate();
+
 
 
 
@@ -19,17 +16,17 @@ function About() {
         <div>
             <Navigation />
 
-           
-
-            <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '15%', paddingRight:'15%', paddingTop:'2%', paddingBottom: '10%'}}>
-
-                <h1 style={{ fontFamily: 'Londrina Outline', fontSize: 60, textAlign: 'center' }}>
+            <h1 style={{ fontFamily: 'Londrina Outline', fontSize: 70, textAlign: 'center' }}>
                     <Typewriter
                         onInit={(greeting) => {
                             greeting.typeString("About Me").start()
                         }} />
                 </h1>
-                <br></br>
+
+            <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '15%', paddingRight:'15%', paddingTop:'2%', paddingBottom: '10%'}}>
+
+               
+               
 
 
 
@@ -60,10 +57,10 @@ function About() {
                     <div style={{ padding: 30 }}>
                         <Card.Title style={{textAlign: 'center'}}>Programming Languages</Card.Title>
                         <br></br>
-                        <Card.Body style={{ display: 'flex', height: '30%', justifyContent: 'space-around', alignContent: 'center' }}>
-                            <Card.Img style={{ width: '10%' }} src='./jslogo.svg'></Card.Img>
-                            <Card.Img style={{ width: '10%' }} src='./html5.svg'></Card.Img>
-                            <Card.Img style={{ width: '10%' }} src='./css3.svg'></Card.Img>
+                        <Card.Body style={{ display: 'flex', height: '30%', justifyContent: 'center'}}>
+                            <Card.Img style={{ width: '10%', margin: 'auto' }} src='./jslogo.svg'></Card.Img>
+                            <Card.Img style={{ width: '10%' , margin: 'auto'}} src='./html5.svg'></Card.Img>
+                            <Card.Img style={{ width: '10%',  margin: 'auto' }} src='./css3.svg'></Card.Img>
                         </Card.Body>
                         <br></br>
                         <Card.Title style={{textAlign: 'center'}}>Libraries</Card.Title>
@@ -94,7 +91,7 @@ function About() {
                     <Card.Link style={{ width: '75px', margin:20 }} href='https://github.com/haleynrosi'>
                     <Card.Img src='./github.svg'></Card.Img>
                     </Card.Link>
-                    <Card.Link style={{ width: '75px', margin:20 }} href=''>
+                    <Card.Link style={{ width: '75px', margin:20 }} href='./HaleyFisherResume2023.pdf'>
                     <Card.Img  src='./resume.svg'></Card.Img>
                     </Card.Link>
                     </div>
