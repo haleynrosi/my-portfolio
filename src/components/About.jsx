@@ -33,8 +33,8 @@ function About() {
                 <Card  style={{ borderRadius: 10, padding: 15, fontFamily: 'Jost', marginBottom:30}}>
                     <h3 style={{textAlign: 'center'}}>The Developer</h3>
                     <div style={{ display: 'flex', flexDirection: 'row', padding: 20, justifyContent: 'center', alignItems:'center'}}>
-                        <Card.Img src="./images/coverpic.jpg" style={{ height: '90%', maxWidth: '50%', objectFit:'scale-down', borderTopLeftRadius: 10, borderBottomLeftRadius: 10, borderTopRightRadius: 0, borderBottomRightRadius: 0 }}></Card.Img>
-                        <Card.Body style={{ height:'100%', textAlign: 'center', fontSize: 15, padding: 60}} >
+                        <Card.Img src="./images/coverpic.jpg" style={{ maxHeight: '400px', maxWidth: '50%', objectFit:'scale-down', borderTopLeftRadius: 10, borderBottomLeftRadius: 10, borderTopRightRadius: 0, borderBottomRightRadius: 0 }}></Card.Img>
+                        <Card.Body style={{ maxHeight:'fit-content', textAlign: 'center', padding: 30}} >
 
                             My name is Haley and I currently reside in Phoenix, AZ. I am a recent graduate from DigitalCrafts
                             Web Bootcamp where my cohort focused on JavaScript, ReactJS, NodeJS, and SQL technologies. Before DigitalCrafts, I spent four years as a technical recruiter and specifically
