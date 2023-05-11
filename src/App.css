@@ -36,6 +36,6 @@ html, body {
   display: flex;
   flex-direction: column;
   width:65%;
-  max-height: 700px;/* set a height that fits your needs */
+  max-height: 500px;/* set a height that fits your needs */
   overflow: auto;
 }
