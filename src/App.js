@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home'
 import About from './components/About'
-import Contact from './components/Contact'
 import Projects from './components/Projects'
+
 
 
 function App() {
@@ -16,11 +16,10 @@ function App() {
           <Route exact path='/' element={<Home/>}></Route>
           <Route path='/about-me' element={<About/>}></Route>
           <Route path='/portfolio-projects' element={<Projects/>}></Route>
-          <Route path='/contact-me' element={<Contact/>}></Route>
         </Routes>
       </BrowserRouter>
+  
     </div>
-    
     
   
   );

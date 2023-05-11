@@ -1,7 +1,50 @@
 
+
+
+html, body {
+  height: 100%;
+}
+
+
+
 .navBarLink{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: black;
-  font-family: ;
+  font-family: 'Jost'
+
+}
+
+
+
+
+/* .homeButton:after {
+  position: absolute;
+  opacity: 1; 
+  transform: translateY(-10%); 
+  top: 50%;
+  right: 10px;
+  transition: 0.5s;
+} */
+
+.buttonTitleDiv{
+  margin-right: 10%;
+}
+
+.projectImg {
+  width:99%;
+}
+
+
+.projectCard:hover{
+  box-shadow: 0px 0px 10px #000000;
+}
+
+
+.projectsDiv {
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  height: 600px;/* set a height that fits your needs */
+  overflow: auto;
 }

@@ -1,4 +1,5 @@
 import react from "react";
+import 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom'
@@ -6,15 +7,15 @@ import '../App.css'
 
 function Navigation(){
     return(
-        <Navbar expand="lg" bg="light" >
+        <Navbar expand="lg" bg="white" style={{ marginLeft: 20, marginRight:20, marginTop:10}} >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav"/>
-        <Nav >
-            <NavLink className='navBarLink' exact to="/" activeClassName='activeClicked' >Home</NavLink>
-            <NavLink className='navBarLink' exact to="/about-me" activeClassName='activeClicked' >About</NavLink>
-            <NavLink className='navBarLink' exact to="/portfolio-projects" activeClassName='activeClicked' >Projects</NavLink>
-            <NavLink className='navBarLink' exact to="/contact-me" activeClassName='activeClicked' >Contact</NavLink>
+        <Navbar.Collapse  id="basic-navbar-nav">
+        <Nav style={{alignContent:'center'}}>
+            <NavLink className='navBarLink' to="/" >Home &nbsp;</NavLink> 
+            <NavLink className='navBarLink' to="/about-me"  >About  &nbsp;</NavLink> 
+            <NavLink className='navBarLink' to="/portfolio-projects" >Portfolio &nbsp;</NavLink>
         </Nav>
+        </Navbar.Collapse>
         </Navbar>
     )
 }
