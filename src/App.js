@@ -9,7 +9,7 @@ import Projects from './components/Projects'
 
 function App() {
   return (
-    <div>
+    <div >
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>

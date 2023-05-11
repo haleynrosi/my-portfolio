@@ -16,7 +16,7 @@ function About() {
         <div>
             <Navigation />
 
-            <h1 style={{ fontFamily: 'Londrina Outline', fontSize: 70, textAlign: 'center' }}>
+            <h1 style={{ fontFamily: 'Londrina Outline', fontSize: 75, textAlign: 'center', color: 'rgb(64, 14, 50)' }}>
                     <Typewriter
                         onInit={(greeting) => {
                             greeting.typeString("About Me").start()
@@ -31,7 +31,7 @@ function About() {
 
 
                 <Card  style={{ borderRadius: 10, padding: 15, fontFamily: 'Jost', marginBottom:30}}>
-                    <h3 style={{textAlign: 'center'}}>The Developer</h3>
+                    <h3 style={{textAlign: 'center', color: 'rgb(64, 14, 50)'}}>The Developer</h3>
                     <div style={{ display: 'flex', flexDirection: 'row', padding: 20, justifyContent: 'center', alignItems:'center'}}>
                         <Card.Img src="./images/coverpic.jpg" style={{ maxHeight: '400px', maxWidth: '50%', objectFit:'scale-down', borderTopLeftRadius: 10, borderBottomLeftRadius: 10, borderTopRightRadius: 0, borderBottomRightRadius: 0 }}></Card.Img>
                         <Card.Body style={{ maxHeight:'fit-content', textAlign: 'center', padding: 30}} >
@@ -53,7 +53,7 @@ function About() {
 
 
                 <Card  style={{ padding: 15, borderRadius: 10, fontFamily: 'Jost',marginBottom:30 }}>
-                    <h3 style={{textAlign: 'center'}}>My Technical Toolkit</h3>
+                    <h3 style={{textAlign: 'center', color: 'rgb(64, 14, 50)'}}>My Technical Toolkit</h3>
                     <div style={{ padding: 30 }}>
                         <Card.Title style={{textAlign: 'center'}}>Programming Languages</Card.Title>
                         <br></br>
@@ -80,7 +80,7 @@ function About() {
                 </Card>
 
                 <Card style={{ padding: 15, borderRadius: 10, fontFamily: 'Jost',marginBottom:30 }}>
-                    <h3 style={{textAlign: 'center'}}>My Contact Information</h3>
+                    <h3 style={{textAlign: 'center', color: 'rgb(64, 14, 50)'}}>My Contact Information</h3>
                     <div style={{display:'flex', justifyContent:'center'}}>
                     <Card.Link style={{ width: '75px', margin:20 }} href="mailto:haleynfisher018@gmail.com?subject=Example%20Subject&body=Example%20Body">
                     <Card.Img  src='./email.svg'></Card.Img>
@@ -99,7 +99,6 @@ function About() {
             </div>
 
 
-å
 
 
         </div>

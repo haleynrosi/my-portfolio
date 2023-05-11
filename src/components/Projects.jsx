@@ -41,20 +41,20 @@ function Projects() {
         <div>
             <Navigation />
             
-                <h1 style={{ fontFamily: 'Londrina Outline', fontSize:70, textAlign: 'center' }}>
+                <h1 style={{ fontFamily: 'Londrina Outline', fontSize:75, textAlign: 'center',color: 'rgb(64, 14, 50)'}}>
                 <Typewriter
                             onInit={(greeting) => {
                                  greeting.typeString("Portfolio Projects").start()}}/> 
                 </h1>
             
             
-                <div style={{display:'flex', alignItems: 'center', justifyContent:'center',padding: 30}}>
-                    <div className="projectsDiv" style={{padding:40}}>
+                <div style={{display:'flex', alignItems: 'center', justifyContent:'center',paddingLeft: '10%', paddingRight:'10%', paddingTop:'2%', paddingBottom: '10%'}}>
+                    <div className="projectsDiv" style={{padding:30}}>
 
                         <Card  className='projectCard' style={{ width: '100%', margin: '10px', padding:10}} onClick={(e)=>{
                             setIsProjectOneOpen(true)
                         }}>
-                            <Card.Title>TraderRecipes</Card.Title>
+                            <Card.Title style={{fontFamily: 'Jost'}}>TraderRecipes</Card.Title>
                             <Card.Body>
                                 <img className="projectImg" alt='traderpic' src='./traderhome.png'></img>
                             </Card.Body>
@@ -63,7 +63,7 @@ function Projects() {
                         <Card  className='projectCard' style={{ width: '100%', margin: '10px',padding:10 }} onClick={(e)=>{
                             setIsProjectTwoOpen(true)
                         }}>
-                            <Card.Title>TSwift Trivia</Card.Title>
+                            <Card.Title style={{fontFamily: 'Jost'}}>TSwift Trivia</Card.Title>
                             <Card.Body>
                                 <img className="projectImg" src='./images/tayswifttrivia.jpg' alt='tswift' ></img>
                             </Card.Body>
@@ -72,7 +72,7 @@ function Projects() {
                         <Card className='projectCard' style={{ width: '100%', margin: '10px' ,padding:10 }} onClick={(e)=>{
                             setIsProjectThreeOpen(true)
                         }}>
-                            <Card.Title>Movie Site</Card.Title>
+                            <Card.Title style={{fontFamily: 'Jost'}}>Movie Site</Card.Title>
                             <Card.Body>
                                 <img className="projectImg"  alt='moviepic' src='./images/moviesite.jpg'></img>
                             </Card.Body>

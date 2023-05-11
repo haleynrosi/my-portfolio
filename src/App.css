@@ -3,33 +3,24 @@
 
 html, body {
   height: 100%;
+ 
 }
 
 
 
 .navBarLink{
-  text-decoration: none;
+  text-decoration: rgb(64, 14, 50) ;
   font-size: 22px;
-  color: black;
+  color: rgb(64, 14, 50) ;
   font-family: 'Jost'
 
 }
 
-
-
-
-/* .homeButton:after {
-  position: absolute;
-  opacity: 1; 
-  transform: translateY(-10%); 
-  top: 50%;
-  right: 10px;
-  transition: 0.5s;
-} */
-
-.buttonTitleDiv{
-  margin-right: 10%;
+.navBarLink:hover{
+ color: rgb(166, 31, 105) ;
 }
+
+
 
 .projectImg {
   width:99%;
@@ -37,7 +28,7 @@ html, body {
 
 
 .projectCard:hover{
-  box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0px 0px 10px  rgb(166, 31, 105) ;
 }
 
 

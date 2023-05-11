@@ -6,7 +6,7 @@ import '../App.css'
 
 function Navigation(){
     return(
-        <Navbar expand="lg" bg="white" style={{ marginLeft: 20, marginRight:20, marginTop:10}} >
+        <Navbar expand="lg"  style={{ paddingLeft:20}} >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav">
         <Nav style={{alignContent:'center'}}>
